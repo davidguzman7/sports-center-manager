@@ -1,0 +1,26 @@
+{
+  "name": "api-sports",
+  "version": "1.0.0",
+  "description": "sports center manager",
+  "main": "index.js",
+  "scripts": {
+    "dev:1": "nodemon 7.http.js",
+    "dev:2": "nodemon 8.routing.js",
+    "dev:3": "node --watch 2.app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "picocolors": "1.0.0",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
